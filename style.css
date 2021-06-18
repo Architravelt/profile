@@ -35,6 +35,13 @@ a:hover {
   color: #70ADB5;
 }
 
+.background {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-size: cover;
+}
+
 .container {
   width: 600px;
   margin: 0 auto;
@@ -65,6 +72,12 @@ a:hover {
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   width: 600px;
   margin: 24px auto;
+}
+
+.card-white-footer p {
+  font-size: x-small;
+  text-align: right;
+  color: #344fa1;
 }
 
 .img-circle {
